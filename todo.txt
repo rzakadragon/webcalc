@@ -1,0 +1,14 @@
+Logic:
+    currency converter
+    VAT calculator
+    summator with Log
+    currency charts
+
+View:
+    use matherial design
+    use css preprocessor
+    made different sections in header
+
+Code:
+    use Git
+    use jQuery
