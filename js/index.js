@@ -1,4 +1,4 @@
-console.info('in scripts.js')
+console.info('in index.js')
 
 let plnWithVAT = document.getElementById('plnWithVAT')
 let plnWithoutVAT = document.getElementById('plnWithoutVAT')
