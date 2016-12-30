@@ -1,0 +1,24 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "Helper page for calculate currency exchange and VAT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rzakadragon/webcalc.git"
+  },
+  "keywords": [
+    "web",
+    "currency",
+    "VAT"
+  ],
+  "author": "ZiankevichR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rzakadragon/webcalc/issues"
+  },
+  "homepage": "https://github.com/rzakadragon/webcalc#readme"
+}
