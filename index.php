@@ -41,33 +41,59 @@
               </div>
               <div class="mdl-card__supporting-text mdl-grid js_inputsDiv">
 
+                <!-- Zl -->
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--2-offset">
                   <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="plnWithVAT">
                   <label class="mdl-textfield__label" for="sample4">Zl</label>
                   <span class="mdl-textfield__error">Input is not a number!</span>
                 </div>
 
+                <!-- Zl - VAT -->
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--1-offset">
                   <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="plnWithoutVAT">
                   <label class="mdl-textfield__label" for="sample4">Zl (-VAT)</label>
                   <span class="mdl-textfield__error">Input is not a number!</span>
                 </div>
 
+                <!-- USD -->
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--2-offset">
                   <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="usdWithVAT">
                   <label class="mdl-textfield__label" for="sample4">$</label>
                   <span class="mdl-textfield__error">Input is not a number!</span>
                 </div>
 
+                <!-- USD - VAT -->
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--1-offset">
                   <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="usdWithoutVAT">
                   <label class="mdl-textfield__label" for="sample4">$ (-VAT)</label>
                   <span class="mdl-textfield__error">Input is not a number!</span>
                 </div>
 
+                <!-- BYN -->
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--2-offset">
+                  <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="bynWithVAT">
+                  <label class="mdl-textfield__label" for="sample4">BYN</label>
+                  <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+
+                <!-- BYN - VAT -->
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--1-offset">
+                  <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="bynWithoutVAT">
+                  <label class="mdl-textfield__label" for="sample4">BYN (-VAT)</label>
+                  <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+
+                <!-- Zl / USD -->
                 <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--4-offset">
-                  <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="usdValue" value="4.226">
+                  <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="usdToZlValue" value="4.226">
                   <label class="mdl-textfield__label" for="sample4">Zl/$</label>
+                  <span class="mdl-textfield__error">Input is not a number!</span>
+                </div>
+
+                <!-- BYN / USD -->
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label mdl-cell--4-col mdl-cell--4-offset">
+                  <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="usdToBYNValue" value="4.226">
+                  <label class="mdl-textfield__label" for="sample4">BYN/$</label>
                   <span class="mdl-textfield__error">Input is not a number!</span>
                 </div>
 
