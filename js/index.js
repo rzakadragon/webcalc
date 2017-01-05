@@ -113,11 +113,22 @@ function triggerInputs() {
 }
 
 // get currencys
-let nbrbBYNToUSDValue = 0;
+// BYN to USD
+let nbrbBYNToUSDValue = 1.9707
 
 $.ajax({
   url: "http://www.nbrb.by/API/ExRates/Rates/145"
 }).done(function( data ) {
   nbrbBYNToUSDValue =  data.Cur_OfficialRate
   usdToBYNValue.value = nbrbBYNToUSDValue
+});
+
+// PLN to USD
+let nbpPLNToUSDValue = 4.1667
+
+$.ajax({
+    url: "http://api.nbp.pl/api/exchangerates/rates/a/usd/today"
+}).done(function( data ) {
+    nbpPLNToUSDValue = data.rates[0].mid
+    usdToZlValue.value = nbpPLNToUSDValue
 });

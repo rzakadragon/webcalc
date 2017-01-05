@@ -14,8 +14,17 @@ Code:
     use jQuery
 
 TASKS:
-    make auto deploy flow
-    add charts?
-    add calculate settings
-    add currency source settings
-    fix mobile view
+
+    dev flow:
+        make auto deploy flow
+
+    new features:
+        add charts?
+        add "add your bank" button?
+        
+    to do next:
+        add calculate settings
+        add currency source settings (national bank or selected bank)
+        fix mobile view
+        add color highlight to currensy rates (red - default, green - got from bank server)
+        add spinnig mark when making ajax qury for currency
