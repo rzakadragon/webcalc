@@ -12,3 +12,10 @@ View:
 Code:
     use Git
     use jQuery
+
+TASKS:
+    make auto deploy flow
+    add charts?
+    add calculate settings
+    add currency source settings
+    fix mobile view
